@@ -1,0 +1,39 @@
+{
+  "name": "taobao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all --parallel build lift",
+    "build": "webpack --watch",
+    "open:client": "webpack-dev-server --config webpack.config.js  --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "swiper": "^4.2.6",
+    "underscore": "^1.8.3",
+    "babel-core": "^6.26.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.7.1",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "autoprefixer": "^8.3.0"
+  }
+}
